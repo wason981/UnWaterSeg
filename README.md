@@ -9,14 +9,15 @@ Summary::In the underwater target segmentation project, I was mainly responsible
 * ## 1. Prepare the datasets
 You can download the [SUIM] dataset(https://github.com/xahidbuffon/SUIM), [UIIS]([https://github.com/xahidbuffon/SUIM](https://github.com/LiamLian0727/WaterMask)) dataset or [TrashCan](https://conservancy.umn.edu/items/6dd6a960-c44a-4510-a679-efb8c82ebfb7) or use you own dataset for training and inference.
 If you need to experiment with your own dataset, you must divide the images and masks into the following directory structure:
-| :--- | :----------
-|dataset|
-| &boxvr;&nbsp;annotations
-| &boxv;&nbsp; &boxvr;&nbsp;train
-| &boxv;&nbsp; &boxvr;&nbsp;val 
-| &boxvr;&nbsp; images
-| &boxv;&nbsp; &boxvr;&nbsp;train
-| &boxv;&nbsp; &boxvr;&nbsp;val 
+| file path                                                                              | &nbsp;
+|:---------------------------------------------------------------------------------------| :----------
+| dataset                                                                                | Annotations path
+| &boxv;&nbsp; &boxvr;&nbsp;train                                                        | Annotations training set
+| &boxv;&nbsp; &boxur;&nbsp;val                                                          | Annotations testing set
+| &boxvr;&nbsp;images                                                                    | Original Image 
+| &ensp;&ensp; &boxvr;&nbsp;train                                                        | Original Image training set
+| &ensp;&ensp; &boxvr;&nbsp;val                                                          | Original Image testing set
+| 
 
 ### 2. Training
 You can modify the config in the main and run
