@@ -11,12 +11,12 @@ You can download the [SUIM] dataset(https://github.com/xahidbuffon/SUIM), [UIIS]
 If you need to experiment with your own dataset, you must divide the images and masks into the following directory structure:
 | :--- | :----------
 |dataset|
-| &boxvr;&nbsp;annotations|
-| &boxv;&nbsp; &boxvr;&nbsp;train|
-| &boxv;&nbsp; &boxvr;&nbsp;val |
-| &boxvr;&nbsp; images|
-| &boxv;&nbsp; &boxvr;&nbsp;train|
-| &boxv;&nbsp; &boxvr;&nbsp;val |
+| &boxvr;&nbsp;annotations
+| &boxv;&nbsp; &boxvr;&nbsp;train
+| &boxv;&nbsp; &boxvr;&nbsp;val 
+| &boxvr;&nbsp; images
+| &boxv;&nbsp; &boxvr;&nbsp;train
+| &boxv;&nbsp; &boxvr;&nbsp;val 
 
 ### 2. Training
 You can modify the config in the main and run
