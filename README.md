@@ -7,7 +7,7 @@ Summary:In the underwater target segmentation project, I was mainly responsible 
 * We recommend Pytorch 2.0.1, which we used for all experiments in the project.
 
 * ## 1. Prepare the datasets
-You can download the [SUIM] dataset(https://github.com/xahidbuffon/SUIM), [UIIS]([https://github.com/xahidbuffon/SUIM](https://github.com/LiamLian0727/WaterMask)) dataset or [TrashCan](https://conservancy.umn.edu/items/6dd6a960-c44a-4510-a679-efb8c82ebfb7) or use you own dataset for training and inference.
+You can download the [SUIM](https://github.com/xahidbuffon/SUIM) dataset, [UIIS](https://github.com/LiamLian0727/WaterMask)dataset or [TrashCan](https://conservancy.umn.edu/items/6dd6a960-c44a-4510-a679-efb8c82ebfb7) or use you own dataset for training and inference.
 If you need to experiment with your own dataset, you must divide the images and masks into the following directory structure:
 | file path                                                                              | &nbsp;
 |:---------------------------------------------------------------------------------------| :----------
